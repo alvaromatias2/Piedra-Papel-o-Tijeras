@@ -3,7 +3,7 @@
     var cpu_option;
     const options = ["rock_img", "paper_img", "scissor_img"];
 
-    function play2() {
+    function play() {
         //Verificar que usuario haya seleccionado una opción.
         //Si no lo ha hecho, muestra un error, si lo ha hecho, continua el juego.
         if (selected_option == "") {
