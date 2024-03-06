@@ -1,0 +1,52 @@
+body{
+    background-color: #00739F;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+}
+
+table{
+    text-align: center;
+    width: 100%;
+}
+#versus_table{
+    background-color: #004E73;
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+}
+#empty_table{
+    margin-top: 2%;
+}
+#option_table{
+    background-color: #004E73;
+    border-bottom: 3px solid white;
+    border-top: 3px solid white;
+}
+
+.resized_img{
+    height: 80px;
+    width: 80px;
+    margin-top: 3%;
+}
+#play_boton{
+    margin-top: 20px;
+    background-color: greenyellow;
+    color: solid black;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+
+
+
+
+

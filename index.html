@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cachipún</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="/assets/js/script2.js"></script>
+</head>
+
+<body>
+    <h1>Juego piedra, papel, tijera</h1>
+    <div id="div_ppal">
+        <table id="versus_table">
+            <tr>
+                <td>
+                    <img src="/assets/img/user.png" alt="user_icon" class="resized_img">
+                </td>
+                <td>
+                    <!--Empty-->
+                </td>
+                <td>
+                    <img src="/assets/img/blitz.png" alt="cpu_icon" class="resized_img">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2>Usuario</h2>
+                </td>
+                <td>
+                    <img src="/assets/img/versus.png" alt="versus_icon" class="resized_img">
+                </td>
+                <td>
+                    <h2>CPU</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h2 id="player_score">0</h2>
+                </td>
+                <td>
+                    <!--Empty-->
+                </td>
+                <td>
+                    <h2 id="cpu_score">0</h2>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="empty_div">
+        <table id="empty_table">
+            <tr>
+                <td>
+
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="option_div">
+        <table id="option_table">
+            <tr>
+                <td><img src="/assets/img/rock.png" alt="rock_icon" class="resized_img" 
+                    class="option" id="rock_img" onclick="optionChanged('rock_img');"></td>
+
+                <td><img src="/assets/img/paper.png" alt="paper_icon" class="resized_img" 
+                    class="option" id="paper_img" onclick="optionChanged('paper_img');"></td>
+
+                <td><img src="/assets/img/scissor.png" alt="scissor_icon" class="resized_img" 
+                    class="option" id="scissor_img" onclick="optionChanged('scissor_img');"></td>
+            </tr>
+            <tr>
+                <td>
+                    <!--Empty-->
+                </td>
+                <td>
+                    <h2>Elige una opción!</h2>
+                </td>
+                <td>
+                    <!--Empty-->
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="button_div">
+        <table id="button_table">
+            <tr>
+                <td>
+                    <!--Empty-->
+                </td>
+                <td>
+                    <input type="button" value="Iniciar Juego" id="play_boton" onclick="play2();">
+                <td>
+                    <!--Empty-->
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+</body>
+
+</html>
