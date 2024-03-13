@@ -92,7 +92,7 @@
         //Identifica cual es la opcion que el usuario ha seleccionado, la resalta visualmente y cambia la variable
         //selected_option de acuerdo a la seleccion.
         selected_option = source_id;
-        $("#"+source_id).attr("border","3px solid black");
+        $("#"+source_id).attr("border","3px solid red");
         $("#"+source_id).attr("borderRadius", "10%");
     
         //Usa el bucle forEach, para elimnar el borde de las opciones no seleccionadas.
